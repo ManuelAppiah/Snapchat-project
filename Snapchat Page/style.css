@@ -4,7 +4,7 @@ body {
     background-color: rgb(217, 255, 0)
 }
 
-.button-container {
+.container {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -18,13 +18,16 @@ body {
 
 .login-button,
 .signin-button {
-    display: block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: 100vw; 
     height: 10vh; 
     text-align: center;
     text-decoration: none;
     color: #fff;
     font-size: 30px;
+    
 }
 
 .login-button {
@@ -34,3 +37,13 @@ body {
 .signin-button {
     background-color: rgb(82, 82, 237);
 }
+
+.picture {
+    margin-bottom: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20vh;
+}
+
+
